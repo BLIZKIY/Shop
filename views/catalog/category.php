@@ -34,13 +34,13 @@
 				<ul>
 				    <?php foreach($categoryProducts as $item) { ?>
 				    <li class="last">
-				    	<a href="/product/<?php echo $item['id']; ?>"><img src="../template/images/big1.jpg" alt="" /></a>
+				    	<a href="/product/<?php echo $item['id']; ?>"><img src="/upload/images/products/<?php echo $item['id']; ?>.jpg" alt="" /></a>
 				    	<div class="product-info">
-				    		<h3><?php echo $item['name'] ?></h3>
+				    		<h3><?php echo $item['name']; ?></h3>
 				    		<div class="product-desc">
 								<p><a href="/cart/add/<?php echo $item['id']; ?>" class="add-to-cart">в корзину</a></p>
-				    			<p>Lorem ipsum dolor sit<br />amet</p>
-				    			<strong class="price"><?php echo $item['price'] ?></strong>
+								<!--	<p>--><?php //echo $item['description']; ?><!--</p>-->
+				    			<strong class="price"><?php echo $item['price'] ?> грн.</strong>
 
 				    		</div>
 				    	</div>

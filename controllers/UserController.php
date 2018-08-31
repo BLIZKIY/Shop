@@ -31,7 +31,7 @@ class UserController
                   }
 
                   if (!User::checkPassword($password)) {
-                        $errors[] = 'Пароль не должен быть короче 6-х символов!';
+                        $errors[] = 'Пароль не должен быть короче 4-х символов!';
                   }
 
                   if (!User::checkEmail($email)) {
@@ -77,6 +77,15 @@ class UserController
                   //Проверка наличия пользователя
 
                   $userId = User::checkUserData($email, $password);
+
+                  $user = User::getUserById($userId);
+
+                  //проверка доступа администратора
+                  if($user['role'] == 'admin') {
+                      User::auth($userId);
+                      require_once (ROOT.'/views/admin/index.php');
+                      return true;
+                  }
 
 
                   if ($userId == false) {

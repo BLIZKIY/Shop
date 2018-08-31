@@ -34,7 +34,7 @@ class User
     }
 
     public static function checkPassword($password) {
-        if(strlen($password) >= 6) {
+        if(strlen($password) >= 4) {
             return true;
         }
         return false;

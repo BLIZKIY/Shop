@@ -31,16 +31,13 @@
 				<div class="cl">&nbsp;</div>
 				<ul>
 
-
-
 				    <?php foreach($latestProducts as $product) { ?>
 					
 				    <li class="last">
-				    	<a href="/product/<?php echo $product['id'];?>"><img src="../template/images/big1.jpg" alt="" /></a>
+				    	<a href="/product/<?php echo $product['id']; ?>"><img src="/upload/images/products/<?php echo $product['id']; ?>.jpg" alt="" /></a>
 				    	<div class="product-info">
 				    		<h3><?php echo $product['name'] ?></h3>
 				    		<div class="product-desc">
-								<h4>WOMEN’S</h4>
 				    			<p>Lorem ipsum dolor sit<br />amet</p>
 				    			<strong class="price"><?php echo $product['price'] ?></strong>
 				    		</div>
