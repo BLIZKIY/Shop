@@ -11,10 +11,10 @@
 			<div id="slider" class="box">
 				<div id="slider-holder">
 					<ul>
-					    <li><a href="#"><img src="../template/images/slide1.jpg" alt="" /></a></li>
-					    <li><a href="#"><img src="../template/images/slide1.jpg" alt="" /></a></li>
-					    <li><a href="#"><img src="../template/images/slide1.jpg" alt="" /></a></li>
-					    <li><a href="#"><img src="../template/images/slide1.jpg" alt="" /></a></li>
+					    <li><a href="#"><img src="template/images/image1.jpg" alt="" /></a></li>
+					    <li><a href="#"><img src="template/images/image2.jpg" alt="" /></a></li>
+					    <li><a href="#"><img src="template/images/image3.jpg" alt="" /></a></li>
+					    <li><a href="#"><img src="template/images/image4.jpg" alt="" /></a></li>
 					</ul>
 				</div>
 				<div id="slider-nav">

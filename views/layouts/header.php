@@ -5,13 +5,11 @@
 	<title>My E-Shop</title>
 	<link rel="stylesheet" href="../../template/css/style.css" type="text/css" media="all" />
 	<!--[if lte IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
-	
-	<meta name="keywwords" content="Shop Around - Great free html template for on-line shop. Use it as a start point for your on line business. The template can be easily implemented in many open source E-commerce platforms" />
-	<meta name="description" content="Shop Around - Great free html template for on-line shop. Use it as a start point for your on line business. The template can be easily implemented in many open source E-commerce platforms" />
-	
+		
 	<!-- JS -->
-	<script src="../../template/js/jquery-1.4.1.min.js" type="text/javascript"></script>	
-	<script src="../../template/js/jquery.jcarousel.pack.js" type="text/javascript"></script>
+	<script src="template/js/jquery-1.4.1.min.js" type="text/javascript"></script>	
+	<script src="template/js/jquery.jcarousel.pack.js" type="text/javascript"></script>	
+	<script src="template/js/jquery-func.js" type="text/javascript"></script>
 
 	<!-- End JS -->
 	
